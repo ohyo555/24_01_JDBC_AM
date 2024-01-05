@@ -41,4 +41,5 @@ public class Article {
 		this.body = body;
 	}
 
+
 }
