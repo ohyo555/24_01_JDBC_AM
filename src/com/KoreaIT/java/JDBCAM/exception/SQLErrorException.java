@@ -1,5 +1,6 @@
 package com.KoreaIT.java.JDBCAM.exception;
 
+@SuppressWarnings("serial")
 public class SQLErrorException extends RuntimeException {
 	private Exception origin;
 
