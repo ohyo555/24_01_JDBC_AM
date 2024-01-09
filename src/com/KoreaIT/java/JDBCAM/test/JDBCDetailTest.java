@@ -41,7 +41,13 @@ public class JDBCDetailTest {
 				System.out.println("제목 : " + rs.getString("title"));
 				System.out.println("내용 : " + rs.getString("body"));
 			}
-			
+
+//			System.out.println("번호 : " + id);
+//			System.out.println("등록 날짜 : " + rs.getString("regDate"));
+//			System.out.println("수정 날짜 : " + rs.getString("updateDate"));
+//			System.out.println("제목 : " + rs.getString("title"));
+//			System.out.println("내용 : " + rs.getString("body"));
+//			
 		} catch (ClassNotFoundException e) {
 			System.out.println("드라이버 로딩 실패");
 		} catch (SQLException e) {
