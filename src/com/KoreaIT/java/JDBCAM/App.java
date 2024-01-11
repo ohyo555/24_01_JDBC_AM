@@ -6,8 +6,8 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 import com.KoreaIT.java.JDBCAM.container.Container;
-import com.KoreaIT.java.JDBCAM.Controller.ArticleController;
-import com.KoreaIT.java.JDBCAM.Controller.MemberController;
+import com.KoreaIT.java.JDBCAM.controller.ArticleController;
+import com.KoreaIT.java.JDBCAM.controller.MemberController;
 
 public class App {
 
@@ -71,7 +71,9 @@ public class App {
 		MemberController memberController = Container.memberController;
 		ArticleController articleController = Container.articleController;
 
-		if (cmd.equals("member login")) {
+		if (cmd.equals("member profile")) {
+			memberController.showProfile();
+		} else if (cmd.equals("member login")) {
 			memberController.login();
 		} else if (cmd.equals("member join")) {
 			memberController.doJoin();

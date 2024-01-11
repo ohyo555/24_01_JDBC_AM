@@ -1,4 +1,4 @@
-package com.KoreaIT.java.JDBCAM.Controller;
+package com.KoreaIT.java.JDBCAM.controller;
 
 import java.util.List;
 import java.util.Map;

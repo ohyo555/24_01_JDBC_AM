@@ -3,8 +3,8 @@ package com.KoreaIT.java.JDBCAM.container;
 import java.sql.Connection;
 import java.util.Scanner;
 
-import com.KoreaIT.java.JDBCAM.Controller.ArticleController;
-import com.KoreaIT.java.JDBCAM.Controller.MemberController;
+import com.KoreaIT.java.JDBCAM.controller.ArticleController;
+import com.KoreaIT.java.JDBCAM.controller.MemberController;
 import com.KoreaIT.java.JDBCAM.dao.ArticleDao;
 import com.KoreaIT.java.JDBCAM.dao.MemberDao;
 import com.KoreaIT.java.JDBCAM.service.ArticleService;
@@ -41,8 +41,6 @@ public class Container {
 
 		articleController = new ArticleController();
 		memberController = new MemberController();
-
-		
 
 	}
 
