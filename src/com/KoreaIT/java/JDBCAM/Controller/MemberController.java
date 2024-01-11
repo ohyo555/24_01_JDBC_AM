@@ -136,6 +136,7 @@ public class MemberController {
 				break;
 			}
 		}
+		
 		while (true) {
 			System.out.print("이름  : ");
 			name = Container.sc.nextLine().trim();
